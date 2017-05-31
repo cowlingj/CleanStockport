@@ -1,0 +1,71 @@
+html{
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+body{
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+	background-color:white;
+	overflow:scroll;
+	overflow-x:hidden;
+}
+
+.banner{
+	margin:0px auto;
+	padding:0;
+	height:23%;
+	width:100%;
+	overflow:hidden;
+	border:solid;
+	background-color:rgb(0,127,14);
+	border-color:rgb(0,0,0);
+	border-width:0px 0px 5px 0px;
+}
+
+.task{
+	text-align:center;
+	display: inline-block;
+	width: 25%;
+	background-color: darkgreen;
+	background-size:cover;
+	color:white;
+	border-style:ridge;
+	border-width:4px;
+	border-color:black;
+}
+
+.task *{
+	width: 25%;
+}
+
+.taskBox{
+	text-align:center;
+	display: inline-block;
+	width: 25%;
+	background-image:url("../assets/images/taskBox.png");
+	background-size:cover;
+	color:white;
+	border-style:ridge;
+	border-width:4px;
+	border-color:black;
+}
+
+.taskImg{
+	
+}
+
+taskTitle{
+	font-weight:bold;
+	font-size:24px;
+}
+
+taskContent{
+	font-weight:normal;
+	font-family:arial;
+	font-size:12px;
+}

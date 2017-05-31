@@ -1,0 +1,50 @@
+/* html, body { height: 100%; }
+#job { /* position: absolute;
+       align-self: left;
+       float: left;
+       border: 5px solid green;
+       padding: 10px; }
+
+#title { position: fixed;
+         background-color: solid green;
+         font-family: arial; }
+
+.jobDetails div { border: 1px solid black;
+                  text-align: left; }
+
+.jobName { height: 100%;
+           width: 100%; }
+
+.jobDescription { height: 600%;
+                  width: 100%; }
+
+.jobLocationAndPrice th { height: 50%;
+                          width: 100%; } */
+
+input[type=text], textarea
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label
+{
+  font-family: arial;
+}
+
+img
+{
+  width: 100%;
+  height: 100%;
+}
+
+.job
+{
+  width: 50%;
+}
+
